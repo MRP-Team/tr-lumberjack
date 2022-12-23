@@ -117,6 +117,8 @@ RegisterServerEvent('tr-lumberjack:lumberprocessed', function()
     Wait(750)
     Player.Functions.AddItem('wood_plank', TradeRecevied)
     TriggerClientEvent('inventory:client:ItemBox', source, QBCore.Shared.Items['wood_plank'], "add")
+    Player.Functions.AddItem('rubber', 1)
+    TriggerClientEvent('inventory:client:ItemBox', source, QBCore.Shared.Items['rubber'], "add")
 end)
 
 AddEventHandler('onResourceStart', function(resourceName)

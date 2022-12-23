@@ -1,7 +1,7 @@
 Config = Config or {}
 Config.Job = false                                                  -- False = Job is not required / True = Job is required
 Config.UseBlips = true                                              -- True / false option for toggling farm blips
-Config.Timeout = 20 * (60 * 1000)                                   -- 20 minutes
+Config.Timeout = 1 * (60 * 1000)                                   -- 1 minutes
 
 -- Blips
 LumberDepo = {
